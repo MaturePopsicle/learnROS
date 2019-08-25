@@ -36,8 +36,20 @@ catkin_create_pkg <pgk_name> [deps]
 rosdep install [pkg_name]
 ```
 
-
-
+## 关于node的命令
+### rosnode
+列出当前运行的node信息
+```
+rosnode list
+```
+显示某个node的详细信息
+```
+rosnode info [node_name]
+```
+结束某个node
+```
+rosnode kill [node_name]
+```
 
 
 
